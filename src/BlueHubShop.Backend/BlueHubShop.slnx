@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Core/BlueHubShop.Application/BlueHubShop.Application.csproj" />
+    <Project Path="Core/BlueHubShop.Domain/BlueHubShop.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/BlueHubShop.Infrastructure/BlueHubShop.Infrastructure.csproj" />
+    <Project Path="Infrastructure/BlueHubShop.Persistence/BlueHubShop.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/BlueHubShop.API/BlueHubShop.API.csproj" />
+  </Folder>
+  <Project Path="../BlueHubShop.Frontend/BlueHubShop.Frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
